@@ -1,0 +1,1 @@
+ssh -i "KeyHongKong.pem" root@ec2-16-162-25-207.ap-east-1.compute.amazonaws.com

@@ -1,0 +1,15 @@
+[
+    {
+      "height": 15,
+      "floor_layout": [
+        {"monthly_rent": 1200, "orientations": ["E", "N"]},
+        {"monthly_rent": 1200, "orientations": ["S", "W"]}
+      ]
+    },
+    {
+      "height": 6,
+      "floor_layout": [
+        {"monthly_rent": 2300, "orientations": ["N", "S", "E", "W"]}
+      ]
+    }
+  ]

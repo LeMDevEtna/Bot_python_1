@@ -1,0 +1,21 @@
+import websocket ,json, pprint, talib, numpy
+from binance.client import Client
+from binance.enums import *
+import config
+import math
+from datetime import date 
+from decimal import *
+import os
+# init
+TRADE_SYMBOL = 'FTMUSDT'
+TRADE_QUANTITY = '29,2'
+#client = Client(config.API_KEY, config.API_SECRET)
+info = client.get_symbol_info('FTMUSDT') 
+print(info) 
+
+print(info['filters'][2]['minQty'])
+
+order = client.order_market_sell(
+    symbol='FTMUSDT',
+    quantity=29.2)
+print(order)
