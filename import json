@@ -1,0 +1,6 @@
+import json
+parsed_json = (json.loads(json_data))
+print(json.dumps(parsed_json, indent=4, sort_keys=True))
+loaded_json = json.loads(json_data)
+for x in loaded_json:
+	print("%s: %d" % (x, loaded_json[x]))
